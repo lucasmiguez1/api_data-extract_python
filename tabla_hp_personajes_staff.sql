@@ -1,0 +1,22 @@
+CREATE TABLE hp_personajes_staff (
+    id VARCHAR,
+    name VARCHAR,
+    alternate_names VARCHAR,
+    species VARCHAR,
+    gender VARCHAR,
+    house VARCHAR,
+    dateOfBirth VARCHAR,
+    yearOfBirth INTEGER,
+    wizard BOOLEAN,
+    ancestry VARCHAR,
+    eyeColour VARCHAR,
+    hairColour VARCHAR,
+    wand VARCHAR,
+    patronus VARCHAR,
+    hogwartsStudent BOOLEAN,
+    hogwartsStaff BOOLEAN,
+    actor VARCHAR,
+    alternate_actors VARCHAR,
+    alive BOOLEAN,
+    image VARCHAR
+);
